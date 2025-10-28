@@ -12,7 +12,7 @@ with open("linkCars.txt", "r", encoding="UTF-8") as file:
 
 
 dictCars = {"name":[],"V":[], "P":[], "Distance":[], "countPeople":[], "Price":[]}
-# Цена|  Пробег, объём двигателя, мощность, марка, владельцы
+
 k = len(set(linkCars))
 err = 0
 for i in set(linkCars):
